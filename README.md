@@ -26,7 +26,7 @@ You can use [pip][3] to install the dependencies via:
 
 I'll be distributing this code with a file EXAMPLE.csv. Try running
 
-    python makePlan.py 4 EXAMPLE.csv out/ output.pkl
+    python makePlan.py 4 EXAMPLE.csv -d out/ -f output.pkl
 
 This will put a bunch of files into the "out/" directory (see OUTPUT FILE LIST)
 
@@ -87,7 +87,7 @@ No promises
 
     input_file:  One of two types of files:
         .csv   format:
-PORTAL NAME, INTEL MAP LINK, (OPTIONAL:) NUMBER OF KEYS AVAILABLE
+PORTAL NAME; INTEL MAP LINK; (OPTIONAL:) NUMBER OF KEYS AVAILABLE;
 
 Example:
  Catholic Church of the Holy Comforter, https://www.ingress.com/intel?ll=38.031745,-78.478592&z=18&pll=38.031796,-78.479439, 3
